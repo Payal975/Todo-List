@@ -1,0 +1,19 @@
+#frame{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    width: 500px;
+    margin: auto;
+    height: 500px;
+    text-align: center;
+}
+#taskdiv{
+    margin: auto;
+}
+#tasklist{
+    margin: auto;
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+td,th{
+    border: 3px solid black;
+    padding: 5px;
+}

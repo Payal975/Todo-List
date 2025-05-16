@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>  
+    <div id="frame">
+          <h1>TODO LIST</h1>
+          <div id="taskdiv">
+            <input type="text" name="" id="taskinp" placeholder="add your task">
+            <select name="" id="prio">
+                <option value="HIGH">high</option>
+                <option value="LOW">low</option>
+                <option value="MEDIUM">medium</option>
+            </select>
+
+            <button id="addbtn">click to add task</button> 
+          </div>
+
+          <table >
+            <tr>
+                <th>NAME OF TASK</th>
+                <th>PRIORITY OF TASK</th>
+                <th>STATUS OF TASK</th>
+                <th>TOGGLE TASK</th>
+                <th>DELETE task</th>
+                <th>EDIT THE TASK</th>
+            </tr>
+            <tbody id="tasklist"></tbody> 
+          </table>
+    </div>    
+</body>
+<script src="./script.js"></script>
+</html>
